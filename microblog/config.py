@@ -1,0 +1,8 @@
+WTF_CSRF_ENABLED = True
+SECRET_KEY = "you-will-never-guess"
+
+OPENID_PROVIDERS = [
+	{'name':'Google', 'url':'www.google.com'},
+	{'name':'Yahoo', 'url':'www.yahoo.com'},
+	{'name':'AOL', 'url':'www.aol.com/<username>'},
+]
